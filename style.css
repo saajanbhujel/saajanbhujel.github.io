@@ -3,7 +3,33 @@
     padding: 0;
 }
 
+.main{
+    padding: 5px;
+    background: lightblue;
+}
+
 .navBar{
     display: flex;
     justify-content: space-between;
+    background: coral;
+    height: 40px;
+    align-items: center;
+}
+
+.leftNav a{
+    text-decoration: none;
+}
+
+.rightNav{
+    display: flex;
+    gap: 15px;
+}
+
+.rightNav a{
+    text-decoration: none;
+}
+
+.rightNav a:hover{
+    background: lightgray;
+    color: black;
 }
