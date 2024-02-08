@@ -11,8 +11,8 @@
 .navBar{
     display: flex;
     justify-content: space-between;
-    height: 40px;
     align-items: center;
+    height: 40px;
     border: 1px solid #023E8A;
     margin: 0px -10px;
     padding: 0px 9px;
@@ -52,19 +52,24 @@
     .rightNavMob{
         display: flex;
     }
-    .showMenu{
-        display: flex;
-        align-items: center;
-    }
     .closeMenu{
-        display: flex;
+        display: none;
         flex-direction: row-reverse;
+        position: absolute;
+        top: 0;
+        right: 0;
         background-color: yellow;
+        width: 50%;
+        justify-content: space-between;
     }
     .menu{
         display: flex;
         flex-direction: column;
-        background-color: red;
+
+    }
+    .menu a{
+        text-decoration: none;
+        color: black;
     }
 
 
