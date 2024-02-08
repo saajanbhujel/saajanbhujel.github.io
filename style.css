@@ -5,7 +5,7 @@
 
 .main{
     padding: 0px 10px;
-    background: lightblue;
+    background: #CAF0F8;
 }
 
 .navBar{
@@ -13,6 +13,9 @@
     justify-content: space-between;
     height: 40px;
     align-items: center;
+    border: 1px solid #023E8A;
+    margin: 0px -10px;
+    padding: 0px 9px;
 }
 
 .leftNav a{
@@ -26,9 +29,9 @@
 }
 
 .rightNav a{
-    color: black;
+    color: #023E8A;
     text-decoration: none;
-    border: 1px solid black;
+    border: 1px solid #023E8A;
     border-radius: 33px;
     padding: 0px 5px;
 }
@@ -39,14 +42,18 @@
 }
 
 .rightNavMob{
+    display: none;
 }
 
 .menuIcon{
-    color: black;
+    color: #023E8A;
 }
 
 @media (width<500px) {
     .rightNav{
         display: none;
+    }
+    .rightNavMob{
+        display: flex;
     }
 }
