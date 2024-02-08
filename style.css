@@ -49,6 +49,10 @@
     color: #023E8A;
 }
 
+.closeIcon{
+    display: none;
+}
+
 @media (width<500px) {
     .rightNav{
         display: none;
@@ -56,4 +60,18 @@
     .rightNavMob{
         display: flex;
     }
+    .showMenu{
+        display: flex;
+        align-items: center;
+        background-color: yellow;
+    }
+    .closeMenu{
+        display: none;
+        height: 500px;
+    }
+    .rightNavMob .menu{
+        display: flex;
+        flex-direction: column;
+    }
+
 }
