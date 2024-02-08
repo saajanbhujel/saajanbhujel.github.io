@@ -37,3 +37,16 @@
     background: black;
     color: greenyellow;
 }
+
+.rightNavMob{
+}
+
+.menuIcon{
+    color: black;
+}
+
+@media (width<500px) {
+    .rightNav{
+        display: none;
+    }
+}
