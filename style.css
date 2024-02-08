@@ -17,6 +17,7 @@
 
 .leftNav a{
     text-decoration: none;
+    color: black;
 }
 
 .rightNav{
@@ -25,6 +26,7 @@
 }
 
 .rightNav a{
+    color: black;
     text-decoration: none;
     border: 1px solid black;
     border-radius: 33px;
@@ -32,6 +34,6 @@
 }
 
 .rightNav a:hover{
-    background: lightgray;
-    color: black;
+    background: black;
+    color: greenyellow;
 }
