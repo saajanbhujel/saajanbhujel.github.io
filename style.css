@@ -41,7 +41,11 @@
     color: greenyellow;
 }
 
-.rightNavMob{
+.openOrClose{
+    display: none;
+}
+
+.sideMenu{
     display: none;
 }
 
@@ -49,18 +53,15 @@
     .rightNav{
         display: none;
     }
-    .rightNavMob{
+    .openOrClose{
         display: flex;
     }
-    .closeMenu{
+    .openOrClose .closeIcon{
         display: none;
-        flex-direction: row-reverse;
-        position: absolute;
-        top: 0;
-        right: 0;
+    }
+    .sideMenu{
+        display: none;
         background-color: yellow;
-        width: 50%;
-        justify-content: space-between;
     }
     .menu{
         display: flex;

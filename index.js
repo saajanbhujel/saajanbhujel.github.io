@@ -1,13 +1,15 @@
+let menu = document.querySelector(".sideMenu");
+let menuIcon = document.querySelector(".menuIcon");
+let closeIcon = document.querySelector(".closeIcon");
+
 function showMenu(){
-    let menu = document.querySelector(".closeMenu");
-    let menuIcon = document.querySelector(".menuIcon");
     menuIcon.style.display = "none";
+    closeIcon.style.display = "block";
     menu.style.display = "flex";
 }
 
 function closeMenu(){
-    let menu = document.querySelector(".closeMenu");
-    let menuIcon = document.querySelector(".menuIcon");
     menu.style.display = "none";
     menuIcon.style.display = "block";
+    closeIcon.style.display = "none";
 }
