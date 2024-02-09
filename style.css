@@ -62,13 +62,10 @@
     .sideMenu{
         display: none;
         background-color: yellow;
-    }
-    .menu{
-        display: flex;
+        margin: 0px 10px;
         flex-direction: column;
-
     }
-    .menu a{
+    .sideMenu a{
         text-decoration: none;
         color: black;
     }
