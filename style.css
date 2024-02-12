@@ -4,7 +4,7 @@
 }
 
 .main{
-    padding: 0px 10px;
+    padding: 10px;
     background: #CAF0F8;
 }
 
@@ -14,8 +14,7 @@
     align-items: center;
     height: 40px;
     border: 1px solid #023E8A;
-    margin: 0px -10px;
-    padding: 0px 9px;
+    padding: 0px 10px;
 }
 
 .leftNav a{
@@ -33,7 +32,7 @@
     text-decoration: none;
     border: 1px solid #023E8A;
     border-radius: 33px;
-    padding: 0px 5px;
+    padding: 0px 10px;
 }
 
 .rightNav a:hover{
@@ -49,7 +48,13 @@
     display: none;
 }
 
-@media (width<500px) {
+@media (width>500px){
+    .sideMenu{
+        display: none !important;
+    }
+}
+
+@media (width<=500px) {
     .rightNav{
         display: none;
     }
@@ -61,13 +66,20 @@
     }
     .sideMenu{
         display: none;
-        background-color: yellow;
-        margin: 0px 10px;
         flex-direction: column;
+        background-color: yellow;
+        margin: 5px 0px;
+        padding: 5px 8px;
+        border: 1px solid #023E8A;
+        border-radius: 9px;
+        text-align: center;
     }
     .sideMenu a{
         text-decoration: none;
         color: black;
+        margin: 2px 0px;
+        padding: 5px;
+        border: 1px solid #023E8A;
     }
 
 
