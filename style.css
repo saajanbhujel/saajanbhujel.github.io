@@ -1,86 +1,84 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.main{
+.main {
     padding: 10px;
-    background: #CAF0F8;
+    background: #caf0f8;
 }
 
-.navBar{
+.navBar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 40px;
-    border: 1px solid #023E8A;
+    border: 1px solid #023e8a;
     padding: 0px 10px;
 }
 
-.leftNav a{
+.leftNav a {
     text-decoration: none;
     color: black;
 }
 
-.rightNav{
+.rightNav {
     display: flex;
     gap: 10px;
 }
 
-.rightNav a{
-    color: #023E8A;
+.rightNav a {
+    color: #023e8a;
     text-decoration: none;
-    border: 1px solid #023E8A;
+    border: 1px solid #023e8a;
     border-radius: 33px;
     padding: 0px 10px;
 }
 
-.rightNav a:hover{
+.rightNav a:hover {
     background: black;
     color: greenyellow;
 }
 
-.openOrClose{
+.openOrClose {
     display: none;
 }
 
-.sideMenu{
+.sideMenu {
     display: none;
 }
 
-@media (width>500px){
-    .sideMenu{
+@media (width>500px) {
+    .sideMenu {
         display: none !important;
     }
 }
 
 @media (width<=500px) {
-    .rightNav{
+    .rightNav {
         display: none;
     }
-    .openOrClose{
+    .openOrClose {
         display: flex;
     }
-    .openOrClose .closeIcon{
+    .openOrClose .closeIcon {
         display: none;
     }
-    .sideMenu{
+    .sideMenu {
         display: none;
         flex-direction: column;
         background-color: yellow;
         margin: 5px 0px;
         padding: 5px 8px;
-        border: 1px solid #023E8A;
+        border: 1px solid #023e8a;
         border-radius: 9px;
         text-align: center;
     }
-    .sideMenu a{
+    .sideMenu a {
         text-decoration: none;
         color: black;
         margin: 2px 0px;
         padding: 5px;
-        border: 1px solid #023E8A;
+        border: 1px solid #023e8a;
     }
-
-
 }
