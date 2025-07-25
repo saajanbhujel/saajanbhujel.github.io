@@ -67,11 +67,11 @@
     .sideMenu {
         display: none;
         flex-direction: column;
-        background-color: yellow;
+        background-color: #90e0ef;
         margin: 5px 0px;
         padding: 5px 8px;
-        border: 1px solid #023e8a;
-        border-radius: 9px;
+        /*border: 1px solid #023e8a;
+        border-radius: 9px;*/
         text-align: center;
     }
     .sideMenu a {
@@ -80,5 +80,6 @@
         margin: 2px 0px;
         padding: 5px;
         border: 1px solid #023e8a;
+        background: #caf0f8;
     }
 }
